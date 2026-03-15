@@ -62,14 +62,14 @@
 
 ## 1. Установка
 ### Клонируем репозиторий
-git clone <ссылка-на-ваш-репозиторий>
-cd <название-папки>
+git clone https://github.com/zdoronkov96/heart_risk_prediction.git
+cd heart_risk_prediction
 
 ### Устанавливаем зависимости
 pip install fastapi uvicorn pandas joblib python-multipart
 
 ## 2. Запуск сервера
-uvicorn main:app --reload
+uvicorn main_api:app --reload
 Сервер запустится по адресу: http://localhost:8000
 
 
